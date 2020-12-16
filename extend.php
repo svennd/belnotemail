@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace YuetAu\school-emails;
+namespace YuetAu\schoolemails;
 
 use Flarum\Extend;
 use Flarum\Foundation\ValidationException;
