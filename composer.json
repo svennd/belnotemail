@@ -24,7 +24,7 @@
   },
   "extra": {
     "flarum-extension": {
-      "title": "FoF Disposable Emails",
+      "title": "School Emails",
       "category": "moderation",
       "icon": {
         "name": "fas fa-envelope",
