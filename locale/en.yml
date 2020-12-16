@@ -1,3 +1,3 @@
-fof-email-checker:
+school-emails:
   error:
-    disposable_email_message: You may not use a disposable email.
+    non_school_email_message: You must use school email address to register.
