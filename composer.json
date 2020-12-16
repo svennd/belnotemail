@@ -1,37 +1,25 @@
 {
-  "name": "fof/disposable-emails",
-  "description": "Prevent users from signing up with disposable emails",
+  "name": "YuetAu/school-emails",
+  "description": "Prevent users from signing up with non-school mail",
   "keywords": [
     "flarum"
   ],
   "type": "flarum-extension",
   "license": "MIT",
-  "support": {
-    "issues": "https://github.com/FriendsOfFlarum/disposabile-emails/issues",
-    "source": "https://github.com/FriendsOfFlarum/disposable-emails",
-    "forum": "https://discuss.flarum.org/d/21894"
-  },
-  "homepage": "https://friendsofflarum.org",
-  "funding": [
-    {
-      "type": "website",
-      "url": "https://opencollective.com/fof/donate"
-    }
-  ],
+  "homepage": "https://sfcc.chat",
   "require": {
-    "flarum/core": "^0.1.0-beta.14",
-    "fgribreau/mailchecker": "^3.3.17"
+    "flarum/core": "^0.1.0-beta.14"
   },
   "authors": [
     {
-      "name": "David Sevilla Martín",
-      "email": "david.s@redevs.org",
+      "name": "YuetAu",
+      "email": "s161022114@sunfc.edu.hk",
       "role": "Developer"
     }
   ],
   "autoload": {
     "psr-4": {
-      "FoF\\DisposableEmails\\": "src/"
+      "YuetAu\\SchoolEmails\\": "src/"
     }
   },
   "extra": {
@@ -39,13 +27,10 @@
       "title": "FoF Disposable Emails",
       "category": "moderation",
       "icon": {
-        "name": "fas fa-user-times",
-        "backgroundColor": "#e74c3c",
+        "name": "fas fa-envelope",
+        "backgroundColor": "#3F51B5",
         "color": "#fff"
       }
-    },
-    "flagrow": {
-      "discuss": "https://discuss.flarum.org/d/20457-friendsofflarum-disposable-emails"
     }
   }
 }
