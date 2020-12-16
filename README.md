@@ -9,13 +9,13 @@ A [Flarum](http://flarum.org) extension. Prevent users from signing up with disp
 Install manually with composer:
 
 ```sh
-composer require YuetAu/school-emails
+composer require yuetau/school-emails
 ```
 
 ### Updating
 
 ```sh
-composer update YuetAu/school-emails
+composer update yuetau/school-emails
 ```
 
 ### Links
