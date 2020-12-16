@@ -9,13 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace FoF\DisposableEmails;
+namespace YuetAu\school-emails;
 
 use Flarum\Extend;
 use Flarum\Foundation\ValidationException;
 use Flarum\User\Event\Saving;
 use Illuminate\Support\Arr;
-use MailChecker;
 
 return [
     new Extend\Locales(__DIR__.'/locale'),
@@ -24,9 +23,9 @@ return [
         ->listen(Saving::class, function (Saving $event) {
             $email = Arr::get($event->data, 'attributes.email');
 
-            if ($email !== null && !MailChecker::isValid($email)) {
+            if ($email !== null && !preg_match("/\@sunfc\.edu\.hk$/", $email)) {
                 throw new ValidationException([
-                    app('translator')->trans('fof-email-checker.error.disposable_email_message'),
+                    app('translator')->trans('school-emails.error.non_school_email_message'),
                 ]);
             }
         }),
