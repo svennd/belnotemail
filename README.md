@@ -1,24 +1,20 @@
-# School Emails by FriendsOfFlarum
-
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/yuetau/school-emails.svg)](https://packagist.org/packages/yuetau/school-emails)
-
-A [Flarum](http://flarum.org) extension. Prevent users from signing up with disposable emails.
-
 ### Installation
 
 Install manually with composer:
 
 ```sh
-composer require yuetau/school-emails
+composer require SvennD/BelNotEmail
 ```
 
 ### Updating
 
 ```sh
-composer update yuetau/school-emails
+composer update SvennD/BelNotEmail
 ```
 
-### Links
+### Source
+
+modified based on : 
 
 - [Packagist](https://packagist.org/packages/yuetau/school-emails)
 - [GitHub](https://github.com/YuetAu/school-emails)

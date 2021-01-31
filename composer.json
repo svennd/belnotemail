@@ -1,12 +1,11 @@
 {
-  "name": "yuetau/school-emails",
-  "description": "Prevent users from signing up with non-school mail",
+  "name": "SvennD/BelNotEmail",
+  "description": "Prevent users from signing up with non-belnot email",
   "keywords": [
     "flarum"
   ],
   "type": "flarum-extension",
   "license": "MIT",
-  "homepage": "https://sfcc.chat",
   "require": {
     "flarum/core": "^0.1.0-beta.14"
   },
@@ -15,16 +14,20 @@
       "name": "YuetAu",
       "email": "s161022114@sunfc.edu.hk",
       "role": "Developer"
+    },
+    {
+      "name": "SvennD",
+      "role": "Modifications"
     }
   ],
   "autoload": {
     "psr-4": {
-      "YuetAu\\SchoolEmails\\": "src/"
+      "SvennD\\BelNotEmail\\": "src/"
     }
   },
   "extra": {
     "flarum-extension": {
-      "title": "School Emails",
+      "title": "BelNotEmail",
       "category": "moderation",
       "icon": {
         "name": "fas fa-envelope",

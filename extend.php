@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace YuetAu\SchoolEmails;
+namespace SvennD\BelNotEmail;
 
 use Flarum\Extend;
 use Flarum\Foundation\ValidationException;
@@ -23,8 +23,8 @@ return [
         ->listen(Saving::class, function (Saving $event) {
             $email = Arr::get($event->data, 'attributes.email');
 
-            if ($email !== null && !preg_match("/\@sunfc\.edu\.hk$/", $email)) {
-                throw new ValidationException(["You must use school email address to register."]);
+            if ($email !== null && !preg_match("/\@belnot\.be$/", $email)) {
+                throw new ValidationException(["You must use belnot email address to register."]);
             }
         }),
 ];
