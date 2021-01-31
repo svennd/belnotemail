@@ -3,13 +3,13 @@
 Install manually with composer:
 
 ```sh
-composer require SvennD/BelNotEmail
+composer require svennd/belnotemail
 ```
 
 ### Updating
 
 ```sh
-composer update SvennD/BelNotEmail
+composer update svennd/belnotemail
 ```
 
 ### Source
