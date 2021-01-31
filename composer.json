@@ -1,5 +1,5 @@
 {
-  "name": "SvennD/belnotemail",
+  "name": "svennd/belnotemail",
   "description": "Prevent users from signing up with non-belnot email",
   "keywords": [
     "flarum"
